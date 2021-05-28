@@ -2,19 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.app.systemtask">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".MyApplication"
-        android:usesCleartextTraffic="true"
-        android:requestLegacyExternalStorage="true"
-        android:theme="@style/Theme.SystemTask">
+        android:theme="@style/Theme.SystemTask"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".nikhil.kotlinscope.DashboardActivity"></activity>
+        <activity android:name=".nikhil.kotlinscope.LoginActivity" />
+        <activity android:name=".nikhil.kotlinscope.SplashScreenActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
