@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             // Nothing here to disable reselect
         }
 
-        navView.setOnNavigationItemSelectedListener { item ->
+        /*navView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_dashboard -> {
                 }
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             true
-        }
+        }*/
 
     }
 

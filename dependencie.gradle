@@ -1,0 +1,17 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+ext.versions = [
+        minSdkLib : 22,
+        compileSdk  : 30,
+        versionCode : 1,
+        versionName : '1.0',
+
+        kotlin_version  : '1.4.30',
+
+        hilt_varsion    : '2.35'
+
+        //bindablesversion : '1.0.8'
+
+
+
+]

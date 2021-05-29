@@ -6,4 +6,8 @@
     <string name="login">Login : </string>
     <string name="type">Type : </string>
     <string name="description">Description : </string>
+
+    <string name="page_4_is">page %1$s is</string>
+
+
 </resources>
